@@ -1,0 +1,35 @@
+{
+  "name": "simple-data-integration-server",
+  "version": "1.0.0",
+  "description": "Simple data integration in UE4",
+  "contributors": [
+    {
+      "name": "Derin Dutz",
+      "email": "dddutz@gmail.com"
+    },
+    {
+      "name": "Dennis Xu",
+      "email": "dennisx@stanford.edu"
+    },
+    {
+      "name": "Ash Ngu",
+      "email": "ashngu@stanford.edu"
+    },
+    {
+      "name": "Ryan Davies",
+      "email": "rdavies8@stanford.edu"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HeliosOrg/SimpleDataIntegrationServer"
+  },
+  "homepage": "https://github.com/HeliosOrg/SimpleDataIntegration",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "ioredis": "*",
+    "request": "*"
+  }
+}
